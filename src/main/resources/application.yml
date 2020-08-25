@@ -1,0 +1,12 @@
+logging:
+  level:
+    org:
+      springframework:
+        cloud:
+          task: debug
+spring:
+  batch:
+    job:
+      jobName: transaction-process
+      step-name: trans-process-step
+      chunk-size: 5

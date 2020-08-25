@@ -1,6 +1,7 @@
 ==  Introduction
 
 This generates a report of the purchase orders and the total purchases of the day.
+
 == Build the project
 
 === To build the demo project

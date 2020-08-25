@@ -15,6 +15,9 @@ This generates a report of the purchase orders and the total purchases of the da
 ./mvnw -DskipTests -U package dockerfile:build
 ```
 
+NOTE: Make sure you are using Java 8 when building docker image.
+
+=== To create and seed the purchase order table execute the DDL below.
 
 ```
 CREATE TABLE purchase_orders
